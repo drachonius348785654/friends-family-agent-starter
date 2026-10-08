@@ -68,3 +68,7 @@ Add your own to `MEMORY.md` (and its topic files) as you go.
 
 It is written as a portable archive — zip the folder and send it. It contains **no
 secrets**; keep it that way (never add an API key, token, or tailnet name).
+
+## License
+
+MIT — see `LICENSE`. Use it, change it, pass it on.
