@@ -1,0 +1,9 @@
+{
+  "theme": "omarchy-system",
+  "tuiMode": "regular",
+  "steeringMode": "all",
+  "compaction": {
+    "enabled": false,
+    "keepRecentTokens": 30000
+  }
+}

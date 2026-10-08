@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "source_chassis": "generic",
+  "captured_at": null,
+  "notes": "Friends & Family starter: ONE tab only. herdr's built-in 'hermes' integration kind launches the Hermes agent; the provider/model are set with the launch args below.",
+  "workspaces": [
+    {
+      "label": "hermes",
+      "number": 1,
+      "tabs": [
+        {
+          "label": "hermes",
+          "number": 1,
+          "cwd": "~",
+          "root": {
+            "type": "pane",
+            "label": "hermes",
+            "cwd": "~"
+          },
+          "agents": [
+            {
+              "name": "hermes",
+              "kind": "hermes",
+              "args": [
+                "--provider",
+                "openrouter",
+                "-m",
+                "deepseek/deepseek-v4.1-flash"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "unresolved": []
+}
